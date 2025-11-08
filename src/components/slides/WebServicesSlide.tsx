@@ -5,7 +5,7 @@ import { Separator } from "../ui/separator";
 
 export const WebServicesSlide = () => {
   return (
-    <div className="slide-container bg-gradient-to-br from-background via-primary/5 to-background">
+    <div className="slide-container bg-gradient-to-br from-background via-primary/5 to-background py-[5rem]">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
@@ -59,13 +59,13 @@ export const WebServicesSlide = () => {
               </div>
               
               <Card className="p-6 border-2 border-secondary/30 bg-secondary/5">
-                <div className="flex items-start gap-4">
+                <div className="flex flex-col sm:flex-row items-start gap-4">
                   <Image className="h-10 w-10 text-secondary flex-shrink-0" />
                   <div className="space-y-2 flex-1">
                     <h5 className="font-bold text-lg">File 3: 16 Flyers Corporativos</h5>
                     <div className="flex flex-wrap gap-4 items-center">
-                      <Badge variant="secondary" className="text-base">
-                        INCLUIDO si contrata File 1+2
+                      <Badge variant="secondary" className="text-base rounded-none">
+                        INCLUIDO si contratas File 1+2
                       </Badge>
                       <span className="text-sm text-muted-foreground">o</span>
                       <span className="text-lg font-bold text-foreground">S/ 450 por separado</span>

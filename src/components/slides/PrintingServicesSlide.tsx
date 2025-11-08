@@ -4,7 +4,7 @@ import { Badge } from "../ui/badge";
 
 export const PrintingServicesSlide = () => {
   return (
-    <div className="slide-container bg-gradient-to-br from-background via-secondary/5 to-background">
+    <div className="slide-container bg-gradient-to-br from-background via-secondary/5 to-background py-[5rem]">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
@@ -35,7 +35,7 @@ export const PrintingServicesSlide = () => {
               </div>
               
               <div className="space-y-4">
-                <div className="flex items-start gap-4 p-4 bg-background border border-border">
+                <div className="flex flex-col sm:flex-row items-start gap-4 p-4 bg-background border border-border">
                   <Palette className="h-8 w-8 text-secondary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-bold text-foreground mb-1">Diseños Temáticos</h4>
@@ -45,7 +45,7 @@ export const PrintingServicesSlide = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-4 p-4 bg-background border border-border">
+                <div className="flex flex-col sm:flex-row items-start gap-4 p-4 bg-background border border-border">
                   <Gift className="h-8 w-8 text-secondary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-bold text-foreground mb-1">Diseño Incluido</h4>
@@ -55,7 +55,7 @@ export const PrintingServicesSlide = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-4 p-4 bg-background border border-border">
+                <div className="flex flex-col sm:flex-row items-start gap-4 p-4 bg-background border border-border">
                   <Calendar className="h-8 w-8 text-secondary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-bold text-foreground mb-1">Actualización Automática</h4>

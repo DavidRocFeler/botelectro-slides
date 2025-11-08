@@ -5,7 +5,7 @@ import { Separator } from "../ui/separator";
 
 export const PaymentTermsSlide = () => {
   return (
-    <div className="slide-container bg-gradient-to-br from-background via-secondary/5 to-background">
+    <div className="slide-container bg-gradient-to-br from-background via-secondary/5 to-background py-[5rem]">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
@@ -32,7 +32,7 @@ export const PaymentTermsSlide = () => {
                 <p className="text-center text-lg mb-4">
                   <span className="font-bold text-foreground">Sitio Web requiere:</span> minimo File 2
                 </p>
-                <div className="flex items-center justify-center gap-4 text-2xl font-bold">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-2xl font-bold">
                   <span className="text-primary">S/ 1,000</span>
                   <span className="text-muted-foreground">+</span>
                   <span className="text-primary">S/ 2,000</span>
@@ -88,7 +88,7 @@ export const PaymentTermsSlide = () => {
 
           {/* Cancellation Policy */}
           <Card className="max-w-4xl mx-auto p-8 bg-destructive/5 border-2 border-destructive/20">
-            <div className="flex items-start gap-6">
+            <div className="flex flex-col sm:flex-row items-start gap-6">
               <AlertTriangle className="h-16 w-16 text-destructive flex-shrink-0" />
               <div className="space-y-4 flex-1">
                 <h3 className="text-2xl font-black text-foreground">Política de Cancelación</h3>

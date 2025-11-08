@@ -44,7 +44,7 @@ export const HostingSlide = () => {
   ];
 
   return (
-    <div className="slide-container bg-gradient-to-br from-background via-primary/5 to-secondary/5">
+    <div className="slide-container bg-gradient-to-br from-background via-primary/5 to-secondary/5 py-[5rem]">
       <div className="container mx-auto max-w-7xl">
         <div className="space-y-12 animate-fade-in">
           {/* Header */}

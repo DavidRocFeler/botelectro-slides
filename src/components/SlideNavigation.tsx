@@ -41,7 +41,7 @@ export const SlideNavigation = ({
       </div>
 
       {/* Slide Indicators */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-50">
+      <div className="fixed bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-50 bg-white p-2">
         {Array.from({ length: totalSlides }).map((_, index) => (
           <button
             key={index}
