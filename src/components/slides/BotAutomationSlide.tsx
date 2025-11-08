@@ -7,27 +7,27 @@ export const BotAutomationSlide = () => {
   const features = [
     {
       icon: Zap,
-      title: "Activación Automática VPN",
-      description: "Credenciales seguras e inicio automático en computadora local",
+      title: "Activa Automáticamente tu VPN",
+      description: "Ingresa Credenciales seguras e inicia automáticamente en tu computadora local",
     },
     {
       icon: Activity,
       title: "Conexión Directa Electro Puno",
-      description: "Integración nativa con el software oficial",
+      description: "Integración nativa con tu computadora local",
     },
     {
       icon: CheckCircle2,
-      title: "Impresión por Lotes",
+      title: "Impresión por Lotes de 100 unidades",
       description: "Procesamiento automático de 180,000 facturas de luz",
     },
     {
       icon: Clock,
-      title: "Dashboard Local 24/7",
-      description: "Control total con activar/desactivar instantáneo",
+      title: "Dashboard en la nube",
+      description: "Control total para activar/desactivar funcionamiento sin consumir recursos locales",
     },
     {
       icon: Shield,
-      title: "Monitoreo Inteligente",
+      title: "Monitoreo Inteligente AI",
       description: "Reintentos automáticos y alertas en tiempo real",
     },
   ];
@@ -38,13 +38,9 @@ export const BotAutomationSlide = () => {
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
           <div className="text-center space-y-4">
-            <Badge variant="secondary" className="text-lg px-6 py-2 mb-4">
-              <Bot className="h-5 w-5 mr-2 inline" />
-              Servicio Principal
-            </Badge>
             
             <h2 className="text-4xl md:text-6xl font-black text-foreground">
-              Automatización Bot IA - <span className="text-primary">S/ 3,000</span>
+              Bot Automatico AI - <span className="text-primary">S/ 3,000</span>
             </h2>
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
@@ -55,7 +51,7 @@ export const BotAutomationSlide = () => {
           {/* Features List */}
           <Card className="max-w-4xl mx-auto p-8 shadow-elegant border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
             <div className="space-y-6">
-              <h3 className="text-2xl font-black text-foreground mb-6">Funcionalidades del Bot IA:</h3>
+              <h3 className="text-2xl font-black text-foreground mb-6">Funcionalidades</h3>
               
               <div className="space-y-4">
                 {features.map((feature, index) => (
@@ -154,7 +150,7 @@ export const BotAutomationSlide = () => {
               180,000 recibos procesados automáticamente cada mes
             </p>
             <p className="text-muted-foreground">
-              Ahorre tiempo y recursos con tecnología de vanguardia
+              Ahorra tiempo y recursos con tecnología maching learning
             </p>
           </div>
         </div>

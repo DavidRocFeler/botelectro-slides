@@ -9,10 +9,6 @@ export const PrintingServicesSlide = () => {
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
           <div className="text-center space-y-4">
-            <Badge variant="secondary" className="text-lg px-6 py-2 mb-4">
-              <Printer className="h-5 w-5 mr-2 inline" />
-              Graphic Gire
-            </Badge>
             
             <h2 className="text-4xl md:text-6xl font-black text-foreground">
               Servicios de <span className="text-secondary">Impresión Premium</span>

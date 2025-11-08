@@ -10,17 +10,13 @@ export const PaymentTermsSlide = () => {
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
           <div className="text-center space-y-4">
-            <Badge variant="secondary" className="text-lg px-6 py-2 mb-4">
-              <DollarSign className="h-5 w-5 mr-2 inline" />
-              Condiciones Comerciales
-            </Badge>
             
             <h2 className="text-4xl md:text-6xl font-black text-foreground">
               Términos de <span className="text-primary">Pago y Entrega</span>
             </h2>
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Proceso claro y transparente para su tranquilidad
+              Proceso claro y transparente
             </p>
           </div>
 
@@ -34,14 +30,14 @@ export const PaymentTermsSlide = () => {
               
               <div className="bg-background rounded-lg p-6 border border-border">
                 <p className="text-center text-lg mb-4">
-                  <span className="font-bold text-foreground">Sitio Web requiere:</span> Framer 1 + Framer 2
+                  <span className="font-bold text-foreground">Sitio Web requiere:</span> minimo File 2
                 </p>
                 <div className="flex items-center justify-center gap-4 text-2xl font-bold">
-                  <span className="text-primary">S/ 1,500</span>
+                  <span className="text-primary">S/ 1,000</span>
                   <span className="text-muted-foreground">+</span>
                   <span className="text-primary">S/ 2,000</span>
                   <span className="text-muted-foreground">=</span>
-                  <span className="text-secondary text-3xl">S/ 3,500</span>
+                  <span className="text-secondary text-3xl">S/ 3,000</span>
                 </div>
               </div>
             </div>
@@ -51,9 +47,8 @@ export const PaymentTermsSlide = () => {
           <Card className="max-w-4xl mx-auto p-8 shadow-elegant border-2 border-secondary/20">
             <div className="space-y-6">
               <div className="text-center">
-                <DollarSign className="h-16 w-16 text-secondary mx-auto mb-4" />
                 <h3 className="text-2xl font-black text-foreground mb-2">Plan de Pago en 2 Partes</h3>
-                <p className="text-lg text-primary font-bold">S/ 2,000 / 2 = S/ 1,000 por pago</p>
+                <p className="text-lg text-primary font-bold">S/ 1,500 por pago</p>
               </div>
               
               <Separator />
@@ -62,8 +57,8 @@ export const PaymentTermsSlide = () => {
                 <div className="space-y-4">
                   <div className="bg-primary/10 rounded-lg p-6 border border-primary/20">
                     <Badge variant="default" className="mb-3">Primer Pago</Badge>
-                    <p className="text-3xl font-black text-primary mb-2">S/ 1,500</p>
-                    <p className="text-sm text-muted-foreground">Para entregables de Framer 1 y 2</p>
+                    <p className="text-3xl font-black text-primary mb-2">S/ 1,000</p>
+                    <p className="text-sm text-muted-foreground">Para entregable de File 2</p>
                   </div>
                   
                   <div className="bg-secondary/10 rounded-lg p-6 border border-secondary/20">

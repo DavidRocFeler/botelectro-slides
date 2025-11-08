@@ -10,17 +10,13 @@ export const WebServicesSlide = () => {
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
           <div className="text-center space-y-4">
-            <Badge variant="default" className="text-lg px-6 py-2 mb-4 bg-primary">
-              <Globe className="h-5 w-5 mr-2 inline" />
-              GrodevAI
-            </Badge>
             
             <h2 className="text-4xl md:text-6xl font-black text-foreground">
               Servicios <span className="text-primary">Web & Diseño</span>
             </h2>
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Presencia digital moderna para impulsar su negocio
+              Presencia digital moderna para impulsar su compañia
             </p>
           </div>
 
@@ -36,13 +32,13 @@ export const WebServicesSlide = () => {
             <Separator className="my-6" />
             
             <div className="space-y-6">
-              <h4 className="text-xl font-bold text-foreground">Entregables Framer:</h4>
+              <h4 className="text-xl font-bold text-foreground">Entregables:</h4>
               
               <div className="grid md:grid-cols-2 gap-6">
                 <Card className="p-6 border-border/50">
                   <Palette className="h-10 w-10 text-primary mb-3" />
                   <div className="space-y-2">
-                    <h5 className="font-bold text-lg">Framer 1: Brand Identity</h5>
+                    <h5 className="font-bold text-lg">File 1: Brand Identity</h5>
                     <p className="text-2xl font-bold text-primary">S/ 500</p>
                     <p className="text-sm text-muted-foreground">
                       Logo, paleta de colores, tipografía, manual de marca
@@ -53,7 +49,7 @@ export const WebServicesSlide = () => {
                 <Card className="p-6 border-border/50">
                   <Smartphone className="h-10 w-10 text-primary mb-3" />
                   <div className="space-y-2">
-                    <h5 className="font-bold text-lg">Framer 2: Prototipo UX/UI</h5>
+                    <h5 className="font-bold text-lg">File 2: Prototipo UX/UI</h5>
                     <p className="text-2xl font-bold text-primary">S/ 1,000</p>
                     <p className="text-sm text-muted-foreground">
                       Diseño Mobile / Tablet / Desktop responsive
@@ -66,10 +62,10 @@ export const WebServicesSlide = () => {
                 <div className="flex items-start gap-4">
                   <Image className="h-10 w-10 text-secondary flex-shrink-0" />
                   <div className="space-y-2 flex-1">
-                    <h5 className="font-bold text-lg">Framer 3: 16 Flyers Corporativos</h5>
+                    <h5 className="font-bold text-lg">File 3: 16 Flyers Corporativos</h5>
                     <div className="flex flex-wrap gap-4 items-center">
                       <Badge variant="secondary" className="text-base">
-                        INCLUIDO si contrata Framer 1+2
+                        INCLUIDO si contrata File 1+2
                       </Badge>
                       <span className="text-sm text-muted-foreground">o</span>
                       <span className="text-lg font-bold text-foreground">S/ 450 por separado</span>
@@ -86,7 +82,7 @@ export const WebServicesSlide = () => {
           {/* Requirement Notice */}
           <div className="max-w-4xl mx-auto bg-primary/10 p-6 border border-primary/20">
             <p className="text-center text-foreground font-semibold">
-              <span className="text-primary">Requisito:</span> El Sitio Web requiere contratar Framer 1 + Framer 2 = S/ 1,500 + S/ 2,000
+              <span className="text-primary">Requisito:</span> El Sitio Web requiere contratar File 2 = S/ 1,000 + S/ 2,000
             </p>
           </div>
         </div>

@@ -6,7 +6,6 @@ import { WebServicesSlide } from "@/components/slides/WebServicesSlide";
 import { HostingSlide } from "@/components/slides/HostingSlide";
 import { PaymentTermsSlide } from "@/components/slides/PaymentTermsSlide";
 import { SlideNavigation } from "@/components/SlideNavigation";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const slides = [
   HeroSlide,
@@ -63,7 +62,6 @@ const Index = () => {
         onGoToSlide={goToSlide}
       />
       
-      <WhatsAppButton />
     </main>
   );
 };

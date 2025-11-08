@@ -27,20 +27,11 @@ export const HeroSlide = () => {
 
           {/* Main Title */}
           <div className="space-y-4">
-            <div className="flex items-center justify-center gap-3 text-secondary mb-4">
-              <Sparkles className="h-8 w-8 animate-pulse" />
-              <span className="text-lg md:text-xl font-semibold uppercase tracking-wider">Solución Integral</span>
-              <Sparkles className="h-8 w-8 animate-pulse" />
-            </div>
-            
+
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-tight">
-              Automatización Total para su<br />
-              <span className="text-secondary">Contrato Electro Puno</span>
+              Impresión + Diseño + Tecnología<br />
             </h1>
             
-            <p className="text-xl md:text-3xl text-white/90 font-light max-w-3xl mx-auto">
-              Impresión + Diseño + Tecnología
-            </p>
           </div>
 
           {/* Features Grid */}
@@ -65,14 +56,7 @@ export const HeroSlide = () => {
           </div>
 
           {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-6 shadow-elegant">
-              Ver Servicios
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-white text-white shadow-elegant">
-              Contactar Ahora
-            </Button>
-          </div>
+ 
         </div>
       </div>
     </div>

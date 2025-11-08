@@ -19,7 +19,7 @@ export const HostingSlide = () => {
       price: "$25",
       visits: "50k visitas/mes",
       icon: TrendingUp,
-      features: ["Dominio personalizado", "SSL Premium", "Soporte prioritario", "Analytics avanzado"],
+      features: [, "SSL Premium", "Soporte prioritario", "Analytics avanzado"],
       badge: "Popular",
       badgeVariant: "default" as const,
     },
@@ -49,10 +49,6 @@ export const HostingSlide = () => {
         <div className="space-y-12 animate-fade-in">
           {/* Header */}
           <div className="text-center space-y-4">
-            <Badge variant="default" className="text-lg px-6 py-2 mb-4 bg-primary">
-              <Server className="h-5 w-5 mr-2 inline" />
-              Hosting & Dominio
-            </Badge>
             
             <h2 className="text-4xl md:text-6xl font-black text-foreground">
               Planes de <span className="text-primary">Hosting Profesional</span>
@@ -121,7 +117,7 @@ export const HostingSlide = () => {
           {/* Bottom Note */}
           <div className="max-w-4xl mx-auto text-center bg-muted/50 p-6">
             <p className="text-sm text-muted-foreground">
-              Todos los planes incluyen: SSL gratuito, Copias de seguridad, Panel de control intuitivo, Migración asistida
+              Todos los planes incluyen: SSL gratuito, Copias de seguridad, Soporte tecnico, Analytics
             </p>
           </div>
         </div>
